@@ -94,6 +94,41 @@ html {
   position: relative;
 }
 
+.App .todo-row {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 14px auto;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#ff7614), to(#ff5411));
+  background: linear-gradient(90deg, #ff7614 0%, #ff5411 100%);
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.App .todo-row:nth-child(4n + 1) {
+  background: -webkit-gradient(linear, left top, right top, from(#5d0cff), to(#9b00fa));
+  background: linear-gradient(90deg, #5d0cff 0%, #9b00fa 100%);
+}
+
+.App .todo-row:nth-child(4n + 2) {
+  background: -webkit-gradient(linear, left top, right top, from(#ff0cf1), to(#fa0087));
+  background: linear-gradient(90deg, #ff0cf1 0%, #fa0087 100%);
+}
+
+.App .todo-row:nth-child(4n + 3) {
+  background: -webkit-gradient(linear, left top, right top, from(#149fff), to(#117aff));
+  background: linear-gradient(90deg, #149fff 0%, #117aff 100%);
+}
+
 .App .icons {
   display: -webkit-box;
   display: -ms-flexbox;
