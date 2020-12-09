@@ -17,6 +17,7 @@ function TodoList() {
         setTodos(newTodos)
     }
 
+
     const completeTodo = id => {
         let updatedTodos = todos.map(todo => {
             if (todo.id === id) {
@@ -32,7 +33,8 @@ function TodoList() {
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}
-                completeTodo={completeTodo}/>
+                completeTodo={completeTodo}
+                removeTodo={removeTodo}/>
         </div>
     )
 }
