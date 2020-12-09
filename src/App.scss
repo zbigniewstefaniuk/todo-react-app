@@ -11,3 +11,74 @@ html {
   --grey-text: #c3d1d9;
   --blue-headers: #3f84e5;
 }
+
+.App {
+  text-align: center;
+
+  .Todo-App {
+    background-color: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #ececec;
+  }
+
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+
+  .todo-form {
+    margin: 32px;
+  }
+
+  .todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 1rem 0 0 1rem;
+    border: 2px solid #179deb;
+    outline: none;
+    width: 320px;
+    background: transparent;
+  }
+
+  .todo-input::placeholder {
+    color: var(--grey-text);
+  }
+
+  .todo-button {
+    font-weight: 600;
+    padding: 16px;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+    outline: none;
+    background: #179deb;
+    color: #ececec;
+    text-transform: capitalize;
+  }
+
+  .todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .delete-icon {
+    margin-right: 5px;
+    color: #fff;
+  }
+
+  .edit-icon {
+    color: #fff;
+  }
+}

@@ -12,4 +12,105 @@ html {
   --grey-text: #c3d1d9;
   --blue-headers: #3f84e5;
 }
+
+.App {
+  text-align: center;
+}
+
+.App .Todo-App {
+  background-color: var(--bg);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ececec;
+}
+
+.App .complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.App .todo-form {
+  margin: 32px;
+}
+
+.App .todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 1rem 0 0 1rem;
+  border: 2px solid #179deb;
+  outline: none;
+  width: 320px;
+  background: transparent;
+}
+
+.App .todo-input::-webkit-input-placeholder {
+  color: var(--grey-text);
+}
+
+.App .todo-input:-ms-input-placeholder {
+  color: var(--grey-text);
+}
+
+.App .todo-input::-ms-input-placeholder {
+  color: var(--grey-text);
+}
+
+.App .todo-input::placeholder {
+  color: var(--grey-text);
+}
+
+.App .todo-button {
+  font-weight: 600;
+  padding: 16px;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  cursor: pointer;
+  outline: none;
+  background: #179deb;
+  color: #ececec;
+  text-transform: capitalize;
+}
+
+.App .todo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.App .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.App .delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.App .edit-icon {
+  color: #fff;
+}
 /*# sourceMappingURL=App.css.map */
