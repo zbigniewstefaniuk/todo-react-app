@@ -4,8 +4,11 @@ import React, { useState } from 'react'
 import TodoForm from './TodoForm'
 import Todo from './Todo'
 
+// custom Hooks
+import useStickyState from '../hooks/useStickyState'
+
 function TodoList() {
-    const [todos, setTodos] = useState([])
+    const [todos, setTodos] = useStickyState([], 'messages')
 
     const addTodo = todo => {
         if (!todo.text || /^\s*$/.test(todo.text)) {
