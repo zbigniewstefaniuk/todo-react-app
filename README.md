@@ -2,7 +2,7 @@
 <h1 align="center">Simple Todo App implemented using <a href="https://reactjs.org/">React</a></h1>
 
 <p align="center">With this generic app you can add todo task to your list with editing and removing option!</p>
-
+<br />
 
 <h1 align="center">Setup Instructions</h1>
 
