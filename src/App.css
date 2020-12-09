@@ -53,6 +53,7 @@ html {
   outline: none;
   width: 320px;
   background: transparent;
+  color: var(--grey-text);
 }
 
 .App .todo-input::-webkit-input-placeholder {
@@ -107,8 +108,8 @@ html {
           align-items: center;
   margin: 14px auto;
   color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(#ff7614), to(#ff5411));
-  background: linear-gradient(90deg, #ff7614 0%, #ff5411 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4f5a68), to(#a0bcda));
+  background: linear-gradient(90deg, #4f5a68 0%, #a0bcda 100%);
   padding: 16px;
   border-radius: 5px;
   width: 90%;

@@ -42,6 +42,7 @@ html {
     outline: none;
     width: 320px;
     background: transparent;
+    color: var(--grey-text);
   }
 
   .todo-input::placeholder {
@@ -77,8 +78,8 @@ html {
     color: #fff;
     background: linear-gradient(
       90deg,
-      rgba(255, 118, 20, 1) 0%,
-      rgba(255, 84, 17, 1) 100%
+      rgb(79, 90, 104) 0%,
+      rgb(160, 188, 218) 100%
     );
 
     padding: 16px;
