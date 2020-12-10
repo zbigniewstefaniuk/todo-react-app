@@ -8,7 +8,7 @@ import Todo from './Todo'
 import useStickyState from '../hooks/useStickyState'
 
 function TodoList() {
-    const [todos, setTodos] = useStickyState([], 'messages')
+    const [todos, setTodos] = useStickyState([], 'todos')
 
     const addTodo = todo => {
         if (!todo.text || /^\s*$/.test(todo.text)) {
