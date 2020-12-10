@@ -3,6 +3,7 @@
 
 <p align="center">With this generic app you can add todo task to your list with editing and removing option! It also saves todos in Local Storage</p>
 <br />
+<h3 align="center"><a href="https://todo-app-react-zayn.netlify.app/">Demo</a></h3>
 
 <h1 align="center">Setup Instructions</h1>
 
