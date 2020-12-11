@@ -113,6 +113,12 @@ html {
   padding: 16px;
   border-radius: 5px;
   width: 90%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.App .todo-row:hover {
+  opacity: 70%;
 }
 
 .App .todo-row:nth-child(4n + 1) {
