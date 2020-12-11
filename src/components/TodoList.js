@@ -11,6 +11,7 @@ function TodoList() {
     const [todos, setTodos] = useStickyState([], 'todos')
 
     const addTodo = todo => {
+        // this line wont allow user to submit blank space
         if (!todo.text || /^\s*$/.test(todo.text)) {
             return
         }
@@ -21,6 +22,7 @@ function TodoList() {
     }
 
     const updateTodo = (todoID, newValue) => {
+        // this line wont allow user to submit blank space
         if (!newValue.text || /^\s*$/.test(newValue.text)) {
             return
         }
